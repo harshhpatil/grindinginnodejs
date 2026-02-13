@@ -1,0 +1,19 @@
+{
+  "name": "learningnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "httpserver": "node creatingServerFromHTTPModule.js",
+    "httpserver-inspect": "node --inspect creatingServerFromHTTPModule.js",
+    "websocketclient": "node websocketclient.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "undici": "^7.21.0",
+    "ws": "^8.19.0"
+  }
+}
