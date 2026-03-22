@@ -1,0 +1,30 @@
+{
+  "name": "refresh-cycle",
+  "rank": "av",
+  "request": {
+    "type": "http",
+    "url": "http://127.0.0.1:3000/auth/v1/refresh",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "POST",
+    "queryParams": [],
+    "headers": [
+      {
+        "id": 1772561444113,
+        "key": "cookie",
+        "value": "refresh_tk=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTcxNjAzOGVhNzFlNzg0MzY1ZDQzOSIsInRva2VuSWQiOiI3YmZhMmU2NC1mYjk1LTRjNGYtYmNjNS1iZGJjYTk4NmMyMmMiLCJpYXQiOjE3NzI1NjE2MzgsImV4cCI6MTc3MzE2NjQzOH0.U_RRv8sPIV-VeECZTmcRICvRIpVFB455Dd-d7RoNdX0; Max-Age=604800; Path=/; Expires=Tue, 10 Mar 2026 18:13:58 GMT; HttpOnly; SameSite=Strict",
+        "isEnabled": true,
+        "description": "",
+        "dataType": "string"
+      }
+    ],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

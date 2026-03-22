@@ -1,0 +1,21 @@
+{
+  "name": "register-user",
+  "rank": "av",
+  "request": {
+    "type": "http",
+    "url": "http://127.0.0.1:3000/auth/v1/register",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "POST",
+    "queryParams": [],
+    "headers": [],
+    "body": "{\n  \"username\": \"harsh\",\n  \"password\": \"Harsh@1968\"\n}",
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}
