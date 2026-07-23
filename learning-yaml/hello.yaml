@@ -1,0 +1,11 @@
+name: "Harsh Patil"
+age: 20
+is_adult: true
+about: "Harsh is a software developer with a passion for learning new technologies. He enjoys working on open-source projects and contributing to the developer community."
+skills:
+  - programming: ["Python", "JavaScript", "C++"]
+  - web_development: ["HTML", "CSS", "React"]
+hobbies:
+  - "Traveling"
+  - "Cooking"
+  - "Gaming"
